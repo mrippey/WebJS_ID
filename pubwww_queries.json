@@ -1,0 +1,12 @@
+{
+    "Suspicious JavaScript": [
+      {
+        "description": "BeEF init method",
+        "query": "beef_init()"
+      },
+      {
+          "description": "Possible obfuscated javascript code -- Not necessarily malicious",
+          "query": "var _0x"
+      }
+    ]
+  } 
